@@ -46,7 +46,7 @@ function App() {
         <h2>LineHeight Calculator</h2>
         <p className="result">{data.result !== null ? `Result: ${data.result}` : null}</p>
         <form onSubmit={submitHandler}>
-          <input name="lineValue" value={data.lineValue} type="number" onChange={onChangeHandler} placeholder="Please enter line value" required />
+          <input name="lineValue" value={data.lineValue} type="number" onChange={onChangeHandler} placeholder="Please enter lineheight value" required />
           <input name="fontSize" value={data.fontSize} type="number" onChange={onChangeHandler} placeholder="Please enter font size" required />
           <button type="submit">Calculate</button>
           <button className="reset" onClick={resetHandler}>
