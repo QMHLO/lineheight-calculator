@@ -9,8 +9,11 @@ function App() {
   });
 
   function calculate(lineValue, fontSize) {
-    const firstValue = Number(lineValue / 2) + Number(fontSize);
-    const result = firstValue / Number(fontSize);
+    // const firstValue = Number(lineValue / 2) + Number(fontSize);
+    // const result = firstValue / Number(fontSize);
+    const LineValue = Number(lineValue);
+    const fontSize = Number(fontSize);
+    const result = LineValue / fontSize;
     return result;
   }
 
