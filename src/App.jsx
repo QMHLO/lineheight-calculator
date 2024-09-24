@@ -44,7 +44,7 @@ function App() {
   return (
     <>
       <div className="block">
-        <h2>LineHeight Calculator</h2>
+        <h2>LineHeight Calculator App</h2>
         <p className="result">{data.result !== null ? `Result: ${data.result}` : null}</p>
         <form onSubmit={submitHandler}>
           <input name="lineValue" value={data.lineValue} type="number" onChange={onChangeHandler} placeholder="Please enter lineheight value" required />
